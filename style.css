@@ -1,0 +1,66 @@
+/* Estilo para las tarjetas de Pokémon */
+.card {
+    margin: 5px;
+    /* Espacio entre las tarjetas */
+    width: 100%;
+    /* Asegura que las tarjetas ocupen todo el ancho disponible */
+    border-color: rgb(65, 57, 57);
+    border-width: 2px;
+    border: 3px solid #ccc;
+    /* Borde de 1 píxel para definir el límite de la tarjeta */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    /* Sombra con desplazamiento horizontal de 2 píxeles, desplazamiento vertical de 2 píxeles, desenfoque de 4 píxeles y color de sombra RGBA */
+}
+
+
+
+/* Asegura que todas las imágenes dentro de las tarjetas tengan la misma altura */
+.card-img-top {
+    height: 200px;
+    /* Ajusta la altura según tus preferencias */
+    object-fit: cover;
+    /* Ajusta la imagen para que cubra todo el contenedor */
+}
+
+/* Estilo para el contenido dentro de la tarjeta */
+.card-body {
+    font-size: 14px;
+}
+
+/* Estilo para las tarjetas de Pokémon */
+
+
+/* Estilo para las tarjetas de Pokémon */
+.pokemon-card {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0px;
+    /* Espacio entre las tarjetas */
+    padding: 0px;
+    /* Espacio interno de las tarjetas */
+    font-size: 0px;
+    /* Tamaño de fuente para el contenido de las tarjetas */
+}
+
+
+/* Contenedor de la cuadrícula */
+#pokemonList {
+    display: flexbox;
+    /*flexbox -template-columns: repeat(auto-fill, minmax(800px, 1fr));*/
+    /* Ajusta el ancho mínimo y máximo de cada columna */
+    grid-gap: 0px;
+    /* Espacio entre las columnas y filas */
+}
+
+body {
+    background-image: url('img/pokemon-images-for-desktop-background-wallpaper-preview.jpg');
+    /* Puedes ajustar el tamaño de la imagen según tus necesidades */
+    background-size: cover;
+    /* Centrar la imagen vertical y horizontalmente */
+    background-position: center center;
+    /* Fijar la imagen de fondo para que no se desplace al hacer scroll */
+    background-attachment: fixed;
+}
+h1{
+ color:white;
+}
