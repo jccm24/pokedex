@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Pokédex</title>
     <!-- Agrega el enlace al archivo CSS de Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
-        <h1>Pokédex</h1>
-        <input type="text" id="search" placeholder="Buscar Pokémon por nombre">
+        <div class="search-container">
+            <h1>Pokédex</h1>
+            <div class="search-bar">
+                <input type="text" id="search" placeholder="Buscar Pokémon por nombre">
+                <button id="search-button">Buscar</button>
+            </div>
+        </div>
         <div class="row" id="pokemonList">
             <!-- Las tarjetas de los pokemones se agregarán aquí dinámicamente con JavaScript -->
         </div>
@@ -41,4 +48,5 @@
     <!-- Enlace a main.js -->
     <script src="main.js"></script>
 </body>
+
 </html>
